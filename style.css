@@ -5,6 +5,38 @@ body {
 	color: #0b172a;
 	max-width: 100%;
 }
+p::selection {
+	background-color: #FF5000;
+	color: white;
+}
+p::-moz-selection {
+	background-color: #FF5000;
+	color: white;
+}
+a::selection {
+	background-color: #FF5000;
+	color: white;
+}
+a::-moz-selection {
+	background-color: #FF5000;
+	color: white;
+}
+strong::selection {
+	background-color: #FF5000;
+	color: white;
+}
+strong::-moz-selection {
+	background-color: #FF5000;
+	color: white;
+}
+em::selection {
+	background-color: #FF5000;
+	color: white;
+}
+em::-moz-selection {
+	background-color: #FF5000;
+	color: white;
+}
 button {
   font-family: Muli;
 	background-color: #FF3B3F;
