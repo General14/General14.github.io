@@ -5,38 +5,15 @@ body {
 	color: #0b172a;
 	max-width: 100%;
 }
-p::selection {
+::selection {
 	background-color: #FF5000;
 	color: white;
 }
-p::-moz-selection {
+::-moz-selection {
 	background-color: #FF5000;
 	color: white;
 }
-a::selection {
-	background-color: #FF5000;
-	color: white;
-}
-a::-moz-selection {
-	background-color: #FF5000;
-	color: white;
-}
-strong::selection {
-	background-color: #FF5000;
-	color: white;
-}
-strong::-moz-selection {
-	background-color: #FF5000;
-	color: white;
-}
-em::selection {
-	background-color: #FF5000;
-	color: white;
-}
-em::-moz-selection {
-	background-color: #FF5000;
-	color: white;
-}
+
 button {
   font-family: Muli;
 	background-color: #FF3B3F;
@@ -103,7 +80,7 @@ nav ul {
 	background-color: transparent;
   padding: 10px;
   display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
 				
     }
@@ -147,9 +124,9 @@ img {
 .big:hover {
   border: none;
 }
-@media all and (max-width: 1000px) {
+@media all and (min-width: 1000px) {
     nav ul {
-			flex-direction: column;
+			flex-direction: row;
 		}
 }
 @media all and (min-width: 1600px) {
