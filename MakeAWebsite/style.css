@@ -35,3 +35,11 @@ h1 {
 code {
     color: darkslategray;
 }
+a:hover {
+	color: #000027;
+    text-decoration: none;
+}
+a {
+
+	color: darkslategray;
+}
