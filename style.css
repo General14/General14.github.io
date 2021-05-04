@@ -54,3 +54,6 @@ a {
 a:hover {
 	color: darkslategrey;
 }
+p, div {
+	padding-left: 20px;
+}
