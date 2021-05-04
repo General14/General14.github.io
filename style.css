@@ -1,0 +1,56 @@
+::selection {
+	color: white;
+	background-color: darkslategray;
+}
+::-moz-selection {
+	color: white;
+	background-color: darkslategray;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+nav {
+    border-bottom: gray 1px solid;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.caption {
+	font-size: 10pt;
+	padding-bottom: 0px;
+}
+h1 {
+    text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+}
+.list::before {
+    content: "- ";
+}
+img {
+	width: 200px;
+}
+.footer {
+	font-size: 10pt;
+	padding-top: 10px;
+}
+.complete {
+	text-decoration: line-through;
+}
+a {
+	color: darkslategray;
+}
+a:hover {
+	color: darkslategrey;
+}
