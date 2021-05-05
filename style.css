@@ -1,3 +1,11 @@
+::selection {
+	color: white;
+	background-color: darkslategray;
+}
+::-moz-selection {
+	color: white;
+	background-color: darkslategray;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -11,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
 .button {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -19,27 +26,32 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.caption {
+	font-size: 10pt;
+	padding-bottom: 0px;
+}
 h1 {
     text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
 }
 .list::before {
     content: "- ";
 }
-.repl {
-    width: 20px;
+img {
+	width: 200px;
 }
-.footnote {
-    font-size: 10pt;
-    font-style: italic;
+.footer {
+	font-size: 10pt;
+	padding-top: 10px;
 }
-code {
-    color: darkslategray;
-}
-a:hover {
-	color: #000027;
-    text-decoration: none;
+.complete {
+	text-decoration: line-through;
 }
 a {
-
 	color: darkslategray;
 }
+a:hover {
+	color: darkslategrey;
+}
+
