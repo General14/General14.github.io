@@ -1,10 +1,6 @@
 debug.console
 (function() {
     var questions = [{
-      question: "What is the capital of India?",
-      choices: [New Delhi, Mumbai, Chennai],
-      correctAnswer: New Delhi
-    }, {
       question: "What is 3*6?",
       choices: [3, 6, 9, 12, 18],
       correctAnswer: 4
