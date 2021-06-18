@@ -58,6 +58,7 @@ a:hover {
 }
 .question{
 	font-weight: 600;
+	padding-right: 10px;
 }
 .answers {
     margin: 20px;
