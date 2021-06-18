@@ -16,7 +16,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
 
 	</script>
-    <script src="script.js"></script>
+    
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet"><link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -51,108 +51,26 @@
 	<h4>Quiz</h4>
     <p class="pt-3">Here is a quiz for you to do:</p>
 
-    <h2 class="quizHeader">Take a Quiz!</h2>
-  
-	<table style="width:583px">
-	<tr>
-	  <td>
-	  	<div>
-	  		<p class="question">1. Quiz question #1</p>
-
-	    	<ul>
-	    	<input class="answer" type="radio" name="q1" value="1">
-	        <label id="correctString1">correct answer 1</label>
-	    	<br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-    		</ul>
-	  	</div>
-	  </td>
-	  <td>
-	  	<div>
-	  		<p class="question">2. Quiz question #2</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">correct answer 2</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	    	</ul>
-	  	</div>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	  	<div>
-	  		<p class="question">3. Quiz question #3</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">correct answer 3</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	    	</ul>
-		</div>
-	  </td>
-	  <td>
-	  	<div>
-	  		<p class="question">4. Quiz question #4</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="1">
-	        <label id="correctString4">correct answer 4</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-    		</ul>
-	  	</div>
-	  </td>
-	</tr>
-	</table>
-<br/>
-  <div class="submitter">
-          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
-          type="submit" value="Submit" />
-    </div>
-  
-<!--show only wrong answers on submit-->
-    <div class="quizAnswers" id="correctAnswer1"></div>
-	    <div class="quizAnswers" id="correctAnswer2"></div>
-    <div class="quizAnswers" id="correctAnswer3"></div>
-    <div class="quizAnswers" id="correctAnswer4"></div>
-
-<!--show score upon submit-->
-    <div>
-    	<h2 class="quizScore" id="userScore"></h2>
-    </div>
+    
 
 <p class="footer">Created by Hayden Eastman</p>
+<div id='container'>
+    <div id='title'>
+        <h1>Learning Js Properly: Project #1 - Dynamic Quiz</h1>
+    </div>
+       <br/>
+      <div id='quiz'></div>
+    <div class='button' id='next'><a href='#'>Next</a></div>
+    <div class='button' id='prev'><a href='#'>Prev</a></div>
+    <div class='button' id='start'> <a href='#'>Start Over</a></div>
+    <!-- <button class='' id='next'>Next</a></button>
+    <button class='' id='prev'>Prev</a></button>
+    <button class='' id='start'> Start Over</a></button> -->
+</div>
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type="text/javascript" src='questions.json'></script>
+<script src="script.js" type="text/javascript"></script>
 </div>
 </body>
 </html>
