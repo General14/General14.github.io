@@ -10,11 +10,11 @@ var myQuestions = [
 		correctAnswer: 'b'
 	},
 	{
-		question: "What is 30/3?",
+		question: "What is the capital of New York State?",
 		answers: {
-			a: '3',
-			b: '5',
-			c: '10'
+			a: 'New York City',
+			b: 'Brooklyn',
+			c: 'Albany'
 		},
 		correctAnswer: 'c'
 	}
