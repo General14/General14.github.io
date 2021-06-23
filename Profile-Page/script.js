@@ -12,9 +12,9 @@ var myQuestions = [
 	{
 		question: "What is the capital of New York State?",
 		answers: {
-			a: '&nbsp;New York City',
-			b: 'Brooklyn',
-			c: 'Albany'
+			a: '	New York City',
+			b: '	Brooklyn',
+			c: '	Albany'
 		},
 		correctAnswer: 'c'
 	}
