@@ -1,11 +1,11 @@
 
 var myQuestions = [
 	{
-		question: "What is 10/2?",
+		question: "What is the capital of India?",
 		answers: {
-			a: '3',
-			b: '5',
-			c: '115'
+			a: 'Mumbai',
+			b: 'New Delhi',
+			c: 'Chennai'
 		},
 		correctAnswer: 'b'
 	},
