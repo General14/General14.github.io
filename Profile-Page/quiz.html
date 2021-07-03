@@ -51,9 +51,14 @@
 	<h4>Quiz</h4>
   <p>
     What is the capital of India?</p>
-    <label class="across"><input type="radio" id="indiaCorrect" name="Q1">New Delhi</label><br>
-    <label class="across"><input type="radio" name="Q1">Mumbai</label><br>
-    <label class="across"><input type="radio" name="Q1">Chennai</label><br>
+    <label class="across"><input type="radio" id="indiaCorrect" name="Q1"> New Delhi</label><br>
+    <label class="across"><input type="radio" name="Q1"> Mumbai</label><br>
+    <label class="across"><input type="radio" name="Q1"> Chennai</label><br>
+    <p>
+      What is the capital of the USA?</p>
+      <label class="across"><input type="radio" name="Q2"> New York</label><br>
+      <label class="across"><input type="radio" name="Q2"> Los Angeles</label><br>
+      <label class="across"><input type="radio" id="usaCorrect" name="Q2"> Washington DC</label><br>
   
   <button id="button">
     Answers
@@ -67,7 +72,12 @@
         score.textContent = Number(score.textContent) + 1;
         
       }
+      if (usaCorrect.checked) {
+        score.textContent = Number(score.textContent) + 1;
+        
+      }
     }
+    
     button.onclick = clickAction;
     </script>
 </body>
