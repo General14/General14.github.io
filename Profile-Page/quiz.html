@@ -49,36 +49,55 @@
 <div class="container-fluid">
 
 	<h4>Quiz</h4>
-  <p>
-    What is the capital of India?</p>
+  <div class="list">
+    What is the capital of India?</div>
     <label class="across"><input type="radio" id="indiaCorrect" name="Q1"> New Delhi</label><br>
     <label class="across"><input type="radio" name="Q1"> Mumbai</label><br>
     <label class="across"><input type="radio" name="Q1"> Chennai</label><br>
-  <p>
-    What is the capital of the USA?</p>
+  <div class="list">
+    What is the capital of the USA?</div>
     <label class="across"><input type="radio" name="Q2"> New York</label><br>
     <label class="across"><input type="radio" name="Q2"> Los Angeles</label><br>
     <label class="across"><input type="radio" id="usaCorrect" name="Q2"> Washington DC</label><br>
-  <p>
-    What is the capital of Azerbaijan?</p>
+  <div class="list">
+    What is the capital of Azerbaijan?</div>
     <label class="across"><input type="radio" name="Q3"> Shirvan</label><br>
     <label class="across"><input type="radio" name="Q3"> Ganja</label><br>
     <label class="across"><input type="radio" id="azCorrect" name="Q3"> Baku</label><br>
-  <p>
-    What is the capital of Australia?</p>
+  <div class="list">
+    What is the capital of Australia?</div>
     <label class="across"><input type="radio" name="Q4"> Sydney</label><br>
     <label class="across"><input type="radio" id="ausCorrect" name="Q4"> Canberra</label><br>
     <label class="across"><input type="radio" name="Q4"> Perth</label><br>
-  <p>
-    What is the capital of Mongolia?</p>
+  <div class="list">
+    What is the capital of Mongolia?</div>
     <label class="across"><input type="radio" name="Q5"> Chinggis</label><br>
     <label class="across"><input type="radio" id="mongCorrect" name="Q5"> Ulaanbaatar</label><br>
     <label class="across"><input type="radio" name="Q5"> Darkhan</label><br>
-  
-    <button id="answerButton">
+  <div class="list">
+    What is the capital of South Sudan?</div>
+    <label class="across"><input type="radio" name="Q6"> Wau</label><br>
+    <label class="across"><input type="radio" name="Q6"> Rumbek</label><br>
+    <label class="across"><input type="radio" id="ssCorrect" name="Q6"> Juba</label><br>
+  <div class="list">
+    What is the capital of Paraguay?</div>
+    <label class="across"><input type="radio" name="Q7"> Coronel Oviedo</label><br>
+    <label class="across"><input type="radio" name="Q7"> Caaguazú</label><br>
+    <label class="across"><input type="radio" id="paraCorrect" name="Q7"> Asunción</label><br>
+  <div class="list">
+    What is the capital of Canada?</div>
+    <label class="across"><input type="radio" id="canadaCorrect" name="Q8"> Ottowa</label><br>
+    <label class="across"><input type="radio" name="Q8"> Vancouver</label><br>
+    <label class="across"><input type="radio" name="Q8"> Montréal</label><br>
+  <div class="list">
+    What is the capital of Mexico?</div>
+    <label class="across"><input type="radio" id="mexicoCorrect" name="Q9"> Mexico City</label><br>
+    <label class="across"><input type="radio" name="Q9"> Oaxaca</label><br>
+    <label class="across"><input type="radio" name="Q9"> Guadalajara</label><br>
+  <button id="answerButton">
     Check Your Answers
-  </button>
-  <h3>Your Score is: <span id="score">...</span> out of 5</h3>
+  </button><br>
+  <h3>Your Score is: <span id="score">...</span> out of 9</h3>
   
     <script>
       function clickAction() {
@@ -100,6 +119,22 @@
           
         }
         if (mongCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (ssCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (paraCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (canadaCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (mexicoCorrect.checked) {
           score.textContent = Number(score.textContent) + 1;
           
         }

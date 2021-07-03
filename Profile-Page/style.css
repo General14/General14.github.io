@@ -12,6 +12,9 @@ body {
 	color: #093426;
 	background-color: rgb(240,240,240);
 }
+.list::before {
+    content: "- ";
+}
 nav {
     border-bottom: gray 1px solid;
 }
