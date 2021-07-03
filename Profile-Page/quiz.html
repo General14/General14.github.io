@@ -54,16 +54,31 @@
     <label class="across"><input type="radio" id="indiaCorrect" name="Q1"> New Delhi</label><br>
     <label class="across"><input type="radio" name="Q1"> Mumbai</label><br>
     <label class="across"><input type="radio" name="Q1"> Chennai</label><br>
-    <p>
-      What is the capital of the USA?</p>
-      <label class="across"><input type="radio" name="Q2"> New York</label><br>
-      <label class="across"><input type="radio" name="Q2"> Los Angeles</label><br>
-      <label class="across"><input type="radio" id="usaCorrect" name="Q2"> Washington DC</label><br>
+  <p>
+    What is the capital of the USA?</p>
+    <label class="across"><input type="radio" name="Q2"> New York</label><br>
+    <label class="across"><input type="radio" name="Q2"> Los Angeles</label><br>
+    <label class="across"><input type="radio" id="usaCorrect" name="Q2"> Washington DC</label><br>
+  <p>
+    What is the capital of Azerbaijan?</p>
+    <label class="across"><input type="radio" name="Q3"> Shirvan</label><br>
+    <label class="across"><input type="radio" name="Q3"> Ganja</label><br>
+    <label class="across"><input type="radio" id="azCorrect" name="Q3"> Baku</label><br>
+  <p>
+    What is the capital of Australia?</p>
+    <label class="across"><input type="radio" name="Q4"> Sydney</label><br>
+    <label class="across"><input type="radio" id="ausCorrect" name="Q4"> Canberra</label><br>
+    <label class="across"><input type="radio" name="Q4"> Perth</label><br>
+  <p>
+    What is the capital of Mongolia?</p>
+    <label class="across"><input type="radio" name="Q5"> Chinggis</label><br>
+    <label class="across"><input type="radio" id="mongCorrect" name="Q5"> Ulaanbaatar</label><br>
+    <label class="across"><input type="radio" name="Q5"> Darkhan</label><br>
   
-  <button id="button">
-    Answers
+    <button id="answerButton">
+    Check Your Answers
   </button>
-  <h4>Your Score was: <span id="score">...</span> out of 2</h4>
+  <h4>Your Score was: <span id="score">...</span> out of 3</h4>
   
     <script>
       function clickAction() {
@@ -71,14 +86,26 @@
         if (indiaCorrect.checked) {
         score.textContent = Number(score.textContent) + 1;
         
+        }
+        if (usaCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (azCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (ausCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (mongCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
       }
-      if (usaCorrect.checked) {
-        score.textContent = Number(score.textContent) + 1;
-        
-      }
-    }
     
-    button.onclick = clickAction;
+    answerButton.onclick = clickAction;
     </script>
 </body>
 </html>
