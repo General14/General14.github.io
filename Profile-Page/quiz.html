@@ -48,7 +48,7 @@
 
 <div class="container-fluid">
 
-	<h4>Quiz</h4>
+	<h4>Capital City Quiz</h4>
   <p>
     What is the capital of India?</p>
     <label class="across"><input type="radio" id="indiaCorrect" name="Q1"> New Delhi</label><br>
@@ -94,10 +94,15 @@
     <label class="across"><input type="radio" id="mexicoCorrect" name="Q9"> Mexico City</label><br>
     <label class="across"><input type="radio" name="Q9"> Oaxaca</label><br>
     <label class="across"><input type="radio" name="Q9"> Guadalajara</label><br>
+  <p>
+    What is the capital of Taiwan?</p>
+    <label class="across"><input type="radio" id="taiwanCorrect" name="Q10"> Taipei</label><br>
+    <label class="across"><input type="radio" name="Q10"> Beijing</label><br>
+    <label class="across"><input type="radio" name="Q10"> Taichung City</label><br>
   <button id="answerButton">
     Check Your Answers
   </button><br>
-  <h3>Your Score is: <span id="score">...</span> out of 9</h3>
+  <h3>Your Score is: <span id="score">...</span> out of 10</h3>
   
     <script>
       function clickAction() {
@@ -135,6 +140,10 @@
           
         }
         if (mexicoCorrect.checked) {
+          score.textContent = Number(score.textContent) + 1;
+          
+        }
+        if (taiwanCorrect.checked) {
           score.textContent = Number(score.textContent) + 1;
           
         }
