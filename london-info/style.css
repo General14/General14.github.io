@@ -32,7 +32,6 @@ h1 {
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 10px;
-	border-spacing: 15px 250px;
 	font-weight: 800;
 	padding-bottom: 20px;
 }
@@ -40,7 +39,6 @@ h1 {
 	float: right;
 	width: 95px;
 	padding-right: 40px;
-	padding-bottom: 0px;
 }
 h1 a {
 	color: #FF5000;
@@ -140,6 +138,12 @@ img {
   border: dotted 1px #000080;
 
   margin: 0.5em;
+}
+aside h2 {
+  padding-left: 20px;
+}
+aside p {
+  padding-left: 20px;
 }
 #myBtn {
   display: none; /* Hidden by default */
