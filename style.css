@@ -9,6 +9,14 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+	color: black;
+	background-color: rgb(240,240,240);
+}
+.list::before {
+    content: "- ";
+}
+input[type='radio']:checked:after {
+	background-color: darkslategray;
 }
 nav {
     border-bottom: gray 1px solid;
@@ -54,4 +62,27 @@ a {
 a:hover {
 	color: darkslategrey;
 }
-
+.question{
+	font-weight: 600;
+	padding-right: 10px;
+}
+.answers {
+    margin: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
+.button-quiz{
+	padding: 20px;
+}
