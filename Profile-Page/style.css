@@ -9,7 +9,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-	color: darkslategray;
+	color: black;
 	background-color: rgb(240,240,240);
 }
 .list::before {
