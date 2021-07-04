@@ -9,11 +9,14 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-	color: #093426;
+	color: #899490;
 	background-color: rgb(240,240,240);
 }
 .list::before {
     content: "- ";
+}
+input[type='radio']:checked:after {
+	background-color: darkslategray;
 }
 nav {
     border-bottom: gray 1px solid;
