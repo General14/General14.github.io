@@ -98,8 +98,8 @@
     What is the capital of Taiwan?</p>
     <label class="correct"><input type="radio" id="taiwanCorrect" name="Q10"> Taipei</label><br>
     <label class="nonCorrect"><input type="radio"  name="Q10"> Beijing</label><br>
-    <label class="nonCorrect"><input type="radio"  name="Q10"> Taichung City</label><br>
-  <button id="answerButton">
+    <label class="nonCorrect"><input type="radio"  name="Q10"> Taichung City</label><br><br>
+  <button id="answerButton" class="answerButton">
     Check Your Answers
   </button><br><br>
   <h3>Your Score is: <span id="score">...</span> out of 10</h3>
@@ -118,7 +118,7 @@
         if (indiaCorrect.checked) {
           score.textContent = Number(score.textContent) + 1;
          
-        
+      
         }
         if (usaCorrect.checked) {
           score.textContent = Number(score.textContent) + 1;
