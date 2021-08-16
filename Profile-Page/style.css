@@ -52,6 +52,7 @@ img {
 .footer {
 	font-size: 10pt;
 	padding-top: 10px;
+	border-top: 1px darkslategray dotted;
 }
 .complete {
 	text-decoration: line-through;
