@@ -7,11 +7,12 @@
 	background-color: darkslategray;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px;
@@ -41,4 +42,7 @@ iframe {
     height: 315px;
     padding-bottom: 10px;
     border-radius: 5px;
+}
+.active {
+    color: darkslategray;
 }
