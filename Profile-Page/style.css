@@ -71,3 +71,5 @@ a:hover {
 	color: white;
 	padding: 10px;
 }
+.score {
+	float: right;
