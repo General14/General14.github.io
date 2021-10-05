@@ -125,30 +125,30 @@
 	<label class="nonCorrect"><input type="radio"  name="Q15"> St. Julian's</label><br>
 	<label class="correct"><input type="radio" id="maltaCorrect" name="Q15"> Valletta</label><br>
 	<p>
-	What is the capital of Malta?</p>
-	<label class="nonCorrect"><input type="radio"  name="Q16"> Mdina</label><br>
-	<label class="nonCorrect"><input type="radio"  name="Q16"> St. Julian's</label><br>
-	<label class="correct"><input type="radio" id="maltaCorrect" name="Q16"> Valletta</label><br>
+	What is the capital of North Macedonia?</p>
+	<label class="correct"><input type="radio"  id="macedioniaCorrect" name="Q16"> Skopje</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q16"> Tetovo</label><br>
+	<label class="nonCorrect"><input type="radio" name="Q16"> Bitola</label><br>
 	<p>
-	What is the capital of Malta?</p>
-	<label class="nonCorrect"><input type="radio"  name="Q17"> Mdina</label><br>
-	<label class="nonCorrect"><input type="radio"  name="Q17"> St. Julian's</label><br>
-	<label class="correct"><input type="radio" id="maltaCorrect" name="Q17"> Valletta</label><br>
+	What is the capital of North Korea?</p>
+	<label class="nonCorrect"><input type="radio"  name="Q17"> Hamhung</label><br>
+	<label class="correct"><input type="radio" id="nkoreaCorrect" name="Q17"> Pyongang</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q17"> Wonsan</label><br>
 	<p>
-	What is the capital of Malta?</p>
-	<label class="nonCorrect"><input type="radio"  name="Q18"> Mdina</label><br>
-	<label class="nonCorrect"><input type="radio"  name="Q18"> St. Julian's</label><br>
-	<label class="correct"><input type="radio" id="maltaCorrect" name="Q18"> Valletta</label><br>
+	What is the capital of South Korea?</p>
+	<label class="nonCorrect"><input type="radio"  name="Q18"> Incheon</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q18"> Yongin</label><br>
+	<label class="correct"><input type="radio" id="skoreaCorrect" name="Q18"> Seoul</label><br>
 	<p>
-	What is the capital of Malta?</p>
-	<label class="nonCorrect"><input type="radio"  name="Q19"> Mdina</label><br>
-	<label class="nonCorrect"><input type="radio"  name="Q19"> St. Julian's</label><br>
-	<label class="correct"><input type="radio" id="maltaCorrect" name="Q19"> Valletta</label><br>
+	What is the capital of Albania?</p>
+	<label class="correct"><input type="radio" id="albaniaCorrect" name="Q19"> Tirana</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q19"> Elbasan</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q19"> Berat</label><br>
 	<p>
-	What is the capital of Malta?</p>
-	<label class="nonCorrect"><input type="radio"  name="Q20"> Mdina</label><br>
-	<label class="nonCorrect"><input type="radio"  name="Q20"> St. Julian's</label><br>
-	<label class="correct"><input type="radio" id="maltaCorrect" name="Q20"> Valletta</label><br>
+	What is the capital of Myanmar?</p>
+	<label class="nonCorrect"><input type="radio"  name="Q20"> Yangon</label><br>
+	<label class="nonCorrect"><input type="radio"  name="Q20"> Mandalay</label><br>
+	<label class="correct"><input type="radio" id="myanmarCorrect" name="Q20"> Naypyitaw</label><br>
   <button id="answerButton" class="answerButton">
     Check Your Answers
   </button><br><br>
@@ -208,6 +208,21 @@
 		score.textContent = Number(score.textContent) + 1;
 	}
 	if (maltaCorrect.checked) {
+		score.textContent = Number(score.textContent) + 1;
+	}
+	if (macedoniaCorrect.checked) {
+		score.textContent = Number(score.textContent) + 1;
+	}
+	if (nkoreaCorrect.checked) {
+		score.textContent = Number(score.textContent) + 1;
+	}
+	if (skoreaCorrect.checked) {
+		score.textContent = Number(score.textContent) + 1;
+	}
+	if (albaniaCorrect.checked) {
+		score.textContent = Number(score.textContent) + 1;
+	}
+	if (myanmarCorrect.checked) {
 		score.textContent = Number(score.textContent) + 1;
 	}
       }
