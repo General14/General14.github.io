@@ -7,16 +7,13 @@
 	background-color: darkslategray;
 }
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Martel', serif;
     font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 10px;
-    margin-bottom: 0;
 }
 .title {
     text-align: center;
