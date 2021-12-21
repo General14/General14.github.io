@@ -14,11 +14,11 @@ nav {
 a {
 	color: darkslategray;
 }
-.active {
-    pointer-events: none;
-}
 a:hover {
 	color: darkslategray;
+}
+.active:hover {
+    color: initial;
 }
 .footer {
     border-top: 0.5px dotted darkslategray;
