@@ -14,6 +14,9 @@ nav {
 a {
 	color: darkslategray;
 }
+.active {
+    pointer-events: none;
+}
 a:hover {
 	color: darkslategray;
 }
