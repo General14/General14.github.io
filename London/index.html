@@ -10,9 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat400,700" rel="stylesheet">
         <style>
         .main-image {
             position: relative;
@@ -30,42 +28,76 @@
     </head>
 
     <body>
-        <h1 class="title">Welcome to London</h1>
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
-            <a class="navbar-brand" href="index.html">London</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="food.html">Things to Eat</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="attractions.html">Things to Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hotel.html">Places to Stay</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="exercise.html">Exercise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="transport.html">Travel</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="main-image">
-            <img src="images/London.jpg" alt="London" style="width:100%;">
-            <div class="centered-image"><h1>Welcome to London</h1></div>
-        </div>
-        <h2>Home</h2>
         <div class="container-fluid">
+            <h1 class="title">Welcome to London</h1>
+        </div>
+            <nav class="navbar navbar-expand-md bg-light navbar-light">
+                <a class="navbar-brand" href="index.html">London</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="food.html">Things to Eat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="attractions.html">Things to Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hotel.html">Places to Stay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="exercise.html">Exercise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transport.html">Travel</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-image">
+                <img src="images/London.jpg" alt="London" style="width:100%;">
+                <div class="centered-image"><h1>Welcome to London</h1></div>
+            </div>
+        <div class="container-fluid">
+            <h2>Home</h2>
             <p>
-                <em>My website</em> is about <strong>London</strong>. It is going to have the following pages: <a href="attractions.html">Things to Do</a>, <a href="food.html">Things to Eat</a>, <a href="hotel.html">Places to Stay</a> and <a href="transport.html">Travel</a>, including how to get to airports and train stations. London is a great place with lots of things to do and things to eat. I hope you have a great time. Here is the <a href="https://www.visitlondon.com/" target="_blank">London tourist webiste</a>.
-            </p>
-            <iframe width="560" height="315" frameborder="0" src="https://www.youtube.com/embed/gs-skMbz9vo"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe>
+                <em>My website</em> is about <strong>London</strong>. It is going to have the following pages: <a href="food.html">Things to Eat</a>, <a href="attractions.html">Things to Do</a>, <a href="hotel.html">Places to Stay</a> and <a href="transport.html">Travel</a>, including how to get to airports and train stations. London is a great place with lots of things to do and things to eat. I hope you have a great time. Here is the <a href="https://www.visitlondon.com/" target="_blank">London tourist webiste</a>.
+            <h4>Things to Eat:</h4>
+            <h5 id="restaurants">Restaurants:</h5>
+            <div class="list">
+                <a href="food.html#monkatsu">Monkatsu</a>
+            </div>
+            <div class="list">
+                <a href="food.html#mammadough">Mamma Dough</a>
+            </div>
+            <div class="list">
+                <a href="food.html#tandoorinights">Tandoori Nights</a>
+            </div>
+            <div class="list">
+                <a href="food.html#chisou">Chisou - Mayfair</a>
+            </div>
+            <h5 id="cafés">Cafés:</h5>
+            <div class="list">
+                <a href="food.html#frenchcafébistro">French Café Bistro</a>
+            </div>
+            <div class="list">
+                <a href="food.html#bondulwich">Bon - Dulwich</a>
+            </div>
+            <div class="list">
+                <a href="food.html#gails">Gail's Bakery</a>
+            </div>
+            <h5 id="snacks">Snacks:</h5>
+            <div class="list">
+                <a href="food.html#cuppacha">Cuppacha - Chinatown</a>
+            </div>
+            <div class="list">
+                <a href="food.html#bubblewrap">Bubblewrap - London</a>
+            </div>
+            <div class="list">
+                <a href="food.html#crepesalacarte">Crêpes à la Carte - Victoria Park</a>
+            </div>
             <p class="footer">Thank you for visiting my website.</p>
         </div>
     </body>
