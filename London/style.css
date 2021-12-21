@@ -31,9 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display';
     font-weight: 700;
   }
-  #myBtn:hover {
-      background-color: rgb(240,240,240);
-  }
 nav {
 	border-top: 0.5px solid darkslategray;
 }
