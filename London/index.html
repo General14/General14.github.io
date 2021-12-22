@@ -5,10 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>London - Home</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:400,700" rel="stylesheet">
         <link rel="icon" href="images/logo.png">
@@ -20,28 +18,41 @@
             <h1 class="title">Welcome to London</h1>
         </div>
             <nav class="navbar navbar-expand-md bg-light navbar-light">
-                <a class="navbar-brand">London</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="food.html">Things to Eat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="attractions.html">Things to Do</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shopping.html">Shopping</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="hotel.html">Places to Stay</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="transport.html">Getting Around</a>
-                        </li>
-                    </ul>
+                <div class="container-fluid">
+                    <a class="navbar-brand text-decoration-none">London</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-decoration-none" href="food.html" role="button" data-bs-toggle="dropdown">Things to Eat</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item text-decoration-none" href="food.html#restaurants">Restaurants</a></li>
+                                      <li><a class="dropdown-item text-decoration-none" href="food.html#cafés">Cafés</a></li>
+                                      <li><a class="dropdown-item text-decoration-none" href="food.html#snacks">Snacks</a></li>
+                                    </ul>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none" href="attractions.html">Things to Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none" href="shopping.html">Shopping</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none disabled" href="hotel.html">Places to Stay</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-decoration-none" href="transport.html" role="button" data-bs-toggle="dropdown">Getting Around</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-decoration-none" href="transport.html#general">General Travel</a></li>
+                                  <li><a class="dropdown-item text-decoration-none" href="transport.html#airports">Airports</a></li>
+                                  <li><a class="dropdown-item text-decoration-none" href="transport.html#trainstations">Train Stations</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="main-image">
@@ -51,120 +62,164 @@
         <div class="container-fluid">
             <h2>Home</h2>
             <p><em>This website</em> is about <strong>London</strong>. It will have the following pages: <a href="food.html">Things to Eat</a>, <a href="attractions.html">Things to Do</a>, <a href="shopping.html">Shopping</a>, <a href="hotel.html">Places to Stay (Under Construction)</a>, and <a href="transport.html">Getting Around</a>, including how to get to <a href="transport.html#airports">airports</a> and info about <a href="transport.html#trainstations">train stations</a>. London is an amazing place with lots of things to do and tons of things to eat. I hope you have a great time. <a href="https://www.visitlondon.com/" target="_blank">Here</a> is the London tourist website.</p>
-            <h4><a href="food.html">Things to Eat:</a></h4>
-            <h5><a href="food.html#restaurants">Restaurants:</a></h5>
-            <div class="list">
-                <a href="food.html#monkatsu">Monkatsu</a>
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="btn text-decoration-none" data-bs-toggle="collapse" href="#collapseOne">
+                      <h4>Things to Eat</h4>
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="food.html#restaurants">Restaurants:</a></h5>
+                        <div class="list">
+                            <a href="food.html#monkatsu">Monkatsu</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#mammadough">Mamma Dough</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#tandoorinights">Tandoori Nights</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#chisou">Chisou - Mayfair</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#plumvalley">Plum Valley</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#wuliwuli">Wuli Wuli</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#momosushi">Momo Sushi</a>
+                        </div>
+                        <h5><a href="food.html#cafés">Cafés:</a></h5>
+                        <div class="list">
+                            <a href="food.html#frenchcafébistro">French Café Bistro</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#stdavid">St David Coffee House</a> / <a href="food.html#bondulwich">Bon Dulwich</a> / <a href="food.html#brownsofbrockley">Browns of Brockley</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#gails">Gail's Bakery</a>
+                        </div>
+                        <h5><a href="food.html#snacks">Snacks:</a></h5>
+                        <div class="list">
+                            <a href="food.html#cuppacha">Cuppacha - Chinatown</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#bubblewrap">Bubblewrap - London</a>
+                        </div>
+                        <div class="list">
+                            <a href="food.html#chezlindsay">Chez Lindsay</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn text-decoration-none" data-bs-toggle="collapse" href="#collapseTwo">
+                    <h4>Things to Do</h4>
+                  </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div class="list">
+                            <a href="attractions.html#sciencemuseum">Science Museum</a>
+                        </div>
+                        <div class="list">
+                            <a href="attractions.html#winterwonderland">Winter Wonderland - Hyde Park</a>
+                        </div>
+                        <div class="list">
+                            <a href="attractions.html#emiratesairline">Emirates Air Line</a>
+                        </div>
+                        <div class="list">
+                            <a href="attractions.html#docklandslightrailway">DLR</a>
+                        </div>
+                        <div class="list">
+                            <a href="attractions.html#kew">Kew Gardens</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn text-decoration-none" data-bs-toggle="collapse" href="#collapseThree">
+                      <h4>Getting Around</h4>
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="transport.html#general">General Travel</a></h5>
+                        <div class="list">
+                            <a href="transport.html#bus">Buses</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#tube">London Underground</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#dlr">DLR</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#overground">London Overground</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#trams">London Trams</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#nationalrail">National Rail</a>
+                        </div>
+                        <h5><a href="transport.html#airports">Airports</a></h5>
+                        <div class="list">
+                            <a href="transport.html#heathrow">Heathrow Airport</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#gatwick">Gatwick Airport</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#stanstead">Stanstead Airport</a>
+                        </div>
+                        <h5><a href="transport.html#trainstations">Train Stations</a></h5>
+                        <div class="list">
+                            <a href="transport.html#stpancras">London St Pancras International</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#victoria">London Victoria</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#paddington">London Paddington</a>
+                        </div>
+                        <div class="list">
+                            <a href="transport.html#londonbridge">London Bridge</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn text-decoration-none" data-bs-toggle="collapse" href="#collapseFour">
+                      <h4>Shopping</h4>
+                    </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <div class="list">
+                            <a href="shopping.html#johnlewis">John Lewis</a>
+                        </div>
+                        <div class="list">
+                            <a href="shopping.html#japancentre">Japan Centre</a>
+                        </div>
+                        <div class="list">
+                            <a href="shopping.html#canarywharf">Canary Wharf Area</a>
+                        </div>
+                        <div class="list">
+                            <a href="shopping.html#jonesofbrockley">Jones of Brockley</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="list">
-                <a href="food.html#mammadough">Mamma Dough</a>
-            </div>
-            <div class="list">
-                <a href="food.html#tandoorinights">Tandoori Nights</a>
-            </div>
-            <div class="list">
-                <a href="food.html#chisou">Chisou - Mayfair</a>
-            </div>
-            <div class="list">
-                <a href="food.html#plumvalley">Plum Valley</a>
-            </div>
-            <div class="list">
-                <a href="food.html#wuliwuli">Wuli Wuli</a>
-            </div>
-            <div class="list">
-                <a href="food.html#momosushi">Momo Sushi</a>
-            </div>
-            <h5><a href="food.html#cafés">Cafés:</a></h5>
-            <div class="list">
-                <a href="food.html#frenchcafébistro">French Café Bistro</a>
-            </div>
-            <div class="list">
-                <a href="food.html#stdavid">St David Coffee House</a> / <a href="food.html#bondulwich">Bon Dulwich</a> / <a href="food.html#brownsofbrockley">Browns of Brockley</a>
-            </div>
-            <div class="list">
-                <a href="food.html#gails">Gail's Bakery</a>
-            </div>
-            <h5><a href="food.html#snacks">Snacks:</a></h5>
-            <div class="list">
-                <a href="food.html#cuppacha">Cuppacha - Chinatown</a>
-            </div>
-            <div class="list">
-                <a href="food.html#bubblewrap">Bubblewrap - London</a>
-            </div>
-            <div class="list">
-                <a href="food.html#chezlindsay">Chez Lindsay</a>
-            </div>
-            <h4><a href="attractions.html">Things to Do:</a></h4>
-            <div class="list">
-                <a href="attractions.html#sciencemuseum">Science Museum</a>
-            </div>
-            <div class="list">
-                <a href="attractions.html#winterwonderland">Winter Wonderland - Hyde Park</a>
-            </div>
-            <div class="list">
-                <a href="attractions.html#emiratesairline">Emirates Air Line</a>
-            </div>
-            <div class="list">
-                <a href="attractions.html#docklandslightrailway">DLR</a>
-            </div>
-            <div class="list">
-                <a href="attractions.html#kew">Kew Gardens</a>
-            </div>
-            <h4><a href="transport.html">Getting Around</a></h4>
-            <div class="list">
-                <a href="transport.html#bus">Buses</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#tube">London Underground</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#dlr">DLR</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#overground">London Overground</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#trams">London Trams</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#nationalrail">National Rail</a>
-            </div>
-            <h5><a href="transport.html#airports">Airports</a></h5>
-            <div class="list">
-                <a href="transport.html#heathrow">Heathrow Airport</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#gatwick">Gatwick Airport</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#stanstead">Stanstead Airport</a>
-            </div>
-            <h5><a href="transport.html#trainstations">Train Stations</a></h5>
-            <div class="list">
-                <a href="transport.html#stpancras">London St Pancras International</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#victoria">London Victoria</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#paddington">London Paddington</a>
-            </div>
-            <div class="list">
-                <a href="transport.html#londonbridge">London Bridge</a>
-            </div>
-            <h4><a href="shopping.html">Shopping</a></h4>
-            <div class="list">
-                <a href="shopping.html#johnlewis">John Lewis</a>
-            </div>
-            <div class="list">
-                <a href="shopping.html#japancentre">Japan Centre</a>
-            </div>
-            <div class="list">
-                <a href="shopping.html#canarywharf">Canary Wharf Area</a>
-            </div>
-            <div class="list">
-                <a href="shopping.html#jonesofbrockley">Jones of Brockley</a>
-            </div>
+                <br>
             <p class="footer">Thank you for visiting my website. <a href="http://eepurl.com/hQBf61" target="_blank">Subscribe</a> to the mailing list to get updates when we make changes to the website.</p>
         </div>
         <script src="script.js"></script>

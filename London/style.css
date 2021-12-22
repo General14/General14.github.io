@@ -31,6 +31,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display';
     font-weight: 700;
 }
+.dropdown-menu {
+    background-color: rgb(250,250,250);
+    font-size: 11pt;
+}
+.dropdown-item:hover {
+    background-color: rgb(240,240,240);
+    color: black;
+}
+.card {
+    background-color: rgb(250,250,250);
+    border: none;
+}
+.card-header {
+    background-color: rgb(250,250,250);
+    border-bottom: 0.5px solid darkslategray;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .main-image {
     position: relative;
     text-align: center;
