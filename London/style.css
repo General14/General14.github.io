@@ -58,6 +58,9 @@ abbr:hover {
     background-color: rgb(240,240,240);
     color: black;
 }
+.nav-link.dropdown-toggle {
+    cursor: default;
+}
 .card {
     background-color: rgb(250,250,250);
     border: none;
