@@ -17,8 +17,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-$(document).ready(function () {
-  var url = window.location;
-  $('ul.navbar-nav a[href="'+ url +'"]').parents('.nav-item').addClass('active');
-});
