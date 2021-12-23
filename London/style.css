@@ -9,12 +9,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     padding-top: 3px;
 }
-nav {
-    z-index: 1;
-}
 .dropdown-item.active {
     background-color: rgb(250,250,250);
     color: black;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 .title {
     padding-top: 10px;
