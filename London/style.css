@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(250,250,250);
     color: black;
 }
+dd::before {
+    content: "- ";
+}
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
@@ -66,9 +69,11 @@ abbr:hover {
 }
 a {
     text-decoration: none;
+    color: darkslategray;
 }
 a:hover {
     text-decoration: underline;
+    color: darkslategray;
 }
 .main-image {
     position: relative;
@@ -84,12 +89,6 @@ a:hover {
 }
 nav {
 	border-top: 0.5px solid darkslategray;
-}
-a {
-	color: darkslategray;
-}
-a:hover {
-	color: darkslategray;
 }
 .active:hover {
     color: initial;
