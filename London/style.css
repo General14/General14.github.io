@@ -29,6 +29,14 @@ dd::before {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+@media all and (min-width: 992px) {
+	.navbarhidden { display: none; }
+    .navbarhiddenspecial { display: none; }
+}
+@media all and (max-width: 992px) {
+    .navbarhiddenopen { display: none; }
+    .navbarhiddenclosed { display: none; }
+}
 abbr:hover {
     cursor: pointer;
 }
