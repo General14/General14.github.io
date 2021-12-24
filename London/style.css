@@ -1,3 +1,11 @@
+::selection {
+	color: white;
+	background-color: darkslategray;
+}
+::-moz-selection {
+	color: white;
+	background-color: darkslategray;
+}
 body {
     font-family: 'Montserrat';
     font-weight: 400;
@@ -23,15 +31,6 @@ dd::before {
 }
 abbr:hover {
     cursor: pointer;
-}
-.title {
-    padding-top: 10px;
-}
-.header {
-    position: fixed;
-}
-.active {
-    background-color: inherit;
 }
 #myBtn {
     display: none; 
@@ -83,7 +82,6 @@ a:hover {
     text-align: center;
     color: white;
 }
-
 .centered-image {
     position: absolute;
     top: 50%;
@@ -93,21 +91,10 @@ a:hover {
 nav {
 	border-top: 0.5px solid darkslategray;
 }
-.active:hover {
-    color: initial;
-}
 .footer {
     border-top: 0.5px dotted darkslategray;
     font-size: 9pt;
 }
 .list::before {
     content: "- ";
-}
-::selection {
-	color: white;
-	background-color: darkslategray;
-}
-::-moz-selection {
-	color: white;
-	background-color: darkslategray;
 }
