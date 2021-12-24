@@ -40,6 +40,9 @@ dd::before {
 abbr:hover {
     cursor: pointer;
 }
+dt {
+    color: darkslategray;
+}
 #myBtn {
     display: none; 
     position: fixed; 
