@@ -95,7 +95,7 @@ nav {
 	border-top: 0.5px solid darkslategray;
 }
 .footer {
-    border-top: 0.5px dotted darkslategray;
+    border-top: 0.5px solid darkslategray;
     font-size: 9pt;
 }
 .list::before {
