@@ -99,9 +99,3 @@ nav {
     border-top: 0.5px solid darkslategray;
     font-size: 9pt;
 }
-.list::before {
-    content: "- ";
-}
-body {
-    width: 100%;
-}
