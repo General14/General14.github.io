@@ -51,6 +51,7 @@ dt {
     font-size: 18px;
     font-family: 'Playfair Display';
     font-weight: 700;
+    width: 50px;
 }
 .dropdown-menu {
     background-color: rgb(250,250,250);
