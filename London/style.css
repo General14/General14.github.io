@@ -1,6 +1,6 @@
 ::selection {
 	color: white;
-	background-color: darkslategray;
+	background-color: #2f4f4f;
 }
 ::-moz-selection {
 	color: white;
@@ -9,7 +9,7 @@
 body {
     font-family: 'Montserrat';
     font-weight: 400;
-    background-color: rgb(250,250,250);
+    background-color: #fafafa;
     position: absolute;
 }
 h1, h2, h3, h4, h5, h6 {
