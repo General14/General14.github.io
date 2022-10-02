@@ -19,6 +19,10 @@ body {
 input[type='radio']:checked:after {
 	background-color: darkslategray;
 }
+.centered-image {
+	position: absolute;
+	color: white;
+}
 nav {
     border-bottom: gray 1px solid;
 }
