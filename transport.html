@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>London - Getting Around</title>
+        <script src="script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/logo.png">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <img src="images/up.jpg" onclick="topFunction()" id="myBtn" title="Go to top">
+            <h1>Welcome to London</h1>
+        </div>
+            <nav class="navbar navbar-expand-lg bg-light navbar-light">
+                <div class="container-fluid">
+                    <a class=" navbar-brand text-decoration-none" href="index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-decoration-none" role="button" data-bs-toggle="dropdown">Things to Eat</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class=" dropdown-item text-decoration-none" href="food.html">Introduction</a></li>
+                                    <li><a class=" dropdown-item text-decoration-none" href="food.html#restaurants">Restaurants</a></li>
+                                    <li><a class=" dropdown-item text-decoration-none" href="food.html#pubs">Pubs</a></li>
+                                    <li><a class=" dropdown-item text-decoration-none" href="food.html#cafés">Cafés</a></li>
+                                    <li><a class=" dropdown-item text-decoration-none" href="food.html#snacks">Snacks</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none" href="attractions.html">Things to Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none" href="shopping.html">Shopping</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-none disabled" href="hotel.html">Places to Stay</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="active nav-link dropdown-toggle text-decoration-none " role="button" data-bs-toggle="dropdown">Getting Around</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="active dropdown-item text-decoration-none" href="transport.html">Introduction</a></li>
+                                  <li><a class="active dropdown-item text-decoration-none" href="transport.html#general">General Travel</a></li>
+                                  <li><a class="active dropdown-item text-decoration-none" href="transport.html#airports">Airports</a></li>
+                                  <li><a class="active dropdown-item text-decoration-none" href="transport.html#trainstations">Train Stations</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <div class="container-fluid">
+            <h2>Getting Around</h2>
+            <p>Sometimes getting around London can be tough. If you need a tube map to help you get around go to <a href="https://tfl.gov.uk/maps" target="_blank">this link</a>, or use <a href="https://General14.github.io/London/files/london-rail-and-tube-services-map.pdf" download>this pdf</a>.</p>
+            <h4 id="general">General Travel</h4>
+            <p>The main ways to get around are by <a href="transport.html#bus">bus</a>, <a href="transport.html#tube">Underground</a>, <a href="transport.html#nationalrail">National Rail</a>, <a href="transport.html#dlr">DLR</a>, <a href="transport.html#overground">Overground</a>, <a href="transport.html#trams">Trams</a>, and <a href="transport.html#elizabeth">Elizabeth Line</a>. Also, dogs are allowed on all TfL services.</p>
+            <dl>
+                <dt><a id="bus" href="https://tfl.gov.uk/modes/buses/" target="_blank">Buses</a></dt>
+                <dd>Buses are the easiest and cheapest way to get around London. They run all over London and can easily help you get from Point A to Point B.</dd>
+                <dt><a id="tube" href="https://tfl.gov.uk/modes/tube/" target="_blank">Underground</a></dt>
+                <dd>The underground is the metro system beneath London. There are lots of lines going through Central London.</dd>
+                <dt><a id="nationalrail" href="https://www.nationalrail.co.uk/" target="_blank">National Rail</a></dt>
+                <dd>National Rail is the UK's rail system. Within London, it mainly goes through Central London and the London Suburbs. There are several train lines to take you to different places.</dd>
+                <dt><a id="dlr" href="https://tfl.gov.uk/modes/dlr/" target="_blank"><abbr style="text-decoration: none;" title="Docklands Light Railway">DLR</abbr></a></dt>
+                <dd>The DLR is a light rail system running through eastern London. It is very fast and easy to get from place to place.</dd>
+                <dt><a id="overground" href="https://tfl.gov.uk/modes/london-overground/" target="_blank">London Overground</a></dt>
+                <dd>The Overground is a rail system that runs in South and North London.</dd>
+                <dt><a id="trams" href="https://tfl.gov.uk/modes/trams/" target="_blank">London Trams</a></dt>
+                <dd>The tram is a quick connection between south east and south west London.</dd>
+                <dt><a id="elizabeth" href="https://tfl.gov.uk/modes/elizabeth-line/">Elizabeth Line</a></dt>
+                <dd>The Elizabeth Line opened earlier this year, it cuts across Central London very quickly. It will be fully open in May 2023.</dd>
+            </dl>
+            <h4 id="airports">Airports</h4>
+            <p>The main airports in London are <a href="transport.html#heathrow">Heathrow Airport</a>, <a href="transport.html#gatwick">Gatwick Airport</a>, <a href="transport.html#londoncity">London City Airport</a>, <a href="transport.html#stanstead">Stanstead Airport</a>, <a href="transport.html#southend">Southend Airport</a>, and <a href="transport.html#luton">Luton Airport</a>.</p>
+            <dl>
+                <dt><a id="heathrow" href="https://www.heathrow.com/" target="_blank">Heathrow Airport</a></dt>
+                <dd>To get here you can: take the <a href="https://www.heathrowexpress.com/" target="_blank">Heathrow Express</a> from <a href="transport.htmk#paddington">London Paddington</a>, costing £15; take the <a href="transport.html#elizabeth">Elizabeth Line</a> from <a href="transport.html#paddington">London Paddington</a>; or take the Piccadilly Line from Central London.</dd>
+                <dt><a id="gatwick" href="https://www.gatwickairport.com/" target="_blank">Gatwick Airport</a></dt>
+                <dd>To get here you can: take the <a href="https://www.gatwickexpress.com/" target="_blank">Gatwick Express</a> from <a href="transport.html#victoria">London Victoria</a>, costing £20; take <a href="transport.html#nationalrail">National Rail </a> (Southern) from <a href="transport.html#victoria">London Victoria</a>; take <a href="transport.html#nationalrail">National Rail</a>(Thameslink) from <a href="transport.html#blackfriars">London Blackfriars</a>, or <a href="transport.html#londonbridge">London Bridge</a>.</dd>
+                <dt><a id="stanstead" href="https://www.stanstedairport.com/" target="_blank">Stanstead Airport</a></dt>
+                <dd>To get here you can: take the <a href="https://www.stanstedexpress.com/" target="_blank">Stanstead Express</a> from <a href="transport.html#liverpoolstreet">London Liverpool Street</a>, costing £15; or take <a href="transport.html#nationalrail">National Rail</a> (Greater Anglia) from <a href="transport.html#liverpoolstreet">London Liverpool Street</a> as well.</dd>
+                <dt><a id="londoncity" href="https://www.londoncityairport.com/" target="_blank">London City Airport</a></dt>
+                <dd>To get here you can: take the <a href="transport.html#dlr">DLR</a> from one of the many stations within London.</dd>
+                <dt><a id="southend" href="https://southendairport.com/" target="_blank">London Southend Airport</a></dt>
+                <dd>To get here you can: take <a href="transport.html#nationalrail">National Rail</a> (Greater Anglia) from <a href="transport.html#liverpoolstreet">London Liverpool Street</a>.</dd>
+                <dt><a id="luton" href="https://www.london-luton.co.uk/" target="_blank">London Luton Airport</a></dt>
+                <dd>To get here you can: take <a href="transport.html#nationalrail">National Rail</a> (Thameslink) from <a href="transport.html#stpancras">London St Pancras International</a>, <a href="transport.html#blackfriars">London Bridge</a>, or <a href="transport.html#londonbridge">London Bridge</a>; take <a href="transport.html#nationalrail">National Rail</a> (East Midlands Railway) from <a href="transport.html#stpancras">London St Pancras International</a>.</dd>
+            </dl>
+            <h4 id="trainstations">Train Stations</h4>
+            <p>The main train stations are <a href="transport.html#stpancras">London St Pancras International</a>, <a href="transport.html#victoria">London Victoria</a>, <a href="transport.html#paddington">London Paddington</a>, <a href="transport.html#liverpoolstreet">London Liverpool Street</a>, <a href="transport.html#londonbridge">London Bridge</a>, <a href="transport.html#blackfriars">London Blackfriars</a>. All of these stations have <a href="transport.html#nationalrail">national rail services</a> and <a href="transport.html#tube">underground services</a>. Also, dogs are allowed on all National Rail services.</p>
+            <dl>
+                <dt><a id="stpancras" href="https://stpancras.com/" target="_blank">London St Pancras International</a></dt>
+                <dd>From London St Pancras International, the trains go north towards Luton and Nottingham, as well as to the south east towards Dover. There are also trains to France, Belgium, and the Netherlands. Located at <a href="https://www.google.com/maps/place/St+Pancras+International/@51.531427,-0.126133,15z/data=!4m2!3m1!1s0x0:0xb92d6fcfa832dd12?sa=X&ved=2ahUKEwjAw_7D6Pn0AhUXoHIEHZJWAKwQ_BJ6BAg5EAU" target="_blank">Euston Rd, London N1C 4QP</a>. Nearby, in <a href="https://www.coaldropsyard.com/" target="_blank">Coal Drops Yard</a>, there are lots of places to eat and drink.</dd>
+                <dt><a id="victoria" href="https://www.networkrail.co.uk/communities/passengers/our-stations/london-victoria/">London Victoria</a></dt>
+                <dd>From London Victoria, the trains go South towards Brighton and also south east towards Dover. Located at <a href="https://www.google.com/maps/place/Victoria+Station/@51.4952136,-0.1460866,17z/data=!3m1!4b1!4m5!3m4!1s0x48760521aaebdc4d:0x5d364f36086cfd15!8m2!3d51.4952103!4d-0.1438979" target="_blank">Victoria St, London SW1E 5ND</a>.</dd>
+                <dt><a id="paddington" href="https://www.networkrail.co.uk/communities/passengers/our-stations/london-paddington/" target="_blank">London Paddington</a></dt>
+                <dd>From London Paddington, the trains go West towards Wales and Bristol. Located at <a href="https://www.google.com/maps/place/Paddington+Station/@51.5166777,-0.1791215,17z/data=!3m1!4b1!4m5!3m4!1s0x48761aad72f39303:0x74926f3ec36c2314!8m2!3d51.5166744!4d-0.1769328" target="_blank">Praed St, London W2 1HB</a>.</dd>
+                <dt><a id="liverpoolstreet" href="https://networkrail.co.uk/communities/passengers/out-stations/london-liverpool-street" target="_blank">London Liverpool Street</a></dt>
+                <dd>From London Liverpool Street, the trains go North East towards Ipswich. Located at <a href="https://www.google.com/maps/place/Liverpool+Street/@51.5824997,0.67138,12.84z/data=!4m5!3m4!1s0x4876034c44354bb1:0xc57f7d6c0b61ff5f!8m2!3d51.5187516!4d-0.0814374" target="_blank">Liverpool St, London EC2M 7PY</a>.</dd>
+                <dt><a id="londonbridge" href="https://www.networkrail.co.uk/communities/passengers/our-stations/london-bridge/" target="_blank">London Bridge</a></dt>
+                <dd>From London Bridge, the trains go South East towards Dover. Located at <a href="https://www.google.com/maps/place/London+Bridge/@51.5079177,-0.092105,16z/data=!4m12!1m6!3m5!1s0x4876035159bb13c5:0xa61e28267c3563ac!2sLondon+Bridge!8m2!3d51.5078788!4d-0.0877321!3m4!1s0x4876035747ecc86f:0x949a2d8ba1bca2df!8m2!3d51.5058532!4d-0.0869699" target="_blank">21 Duke St Hill, London SE1 2SW</a>.</dd>
+                <dt><a id="blackfriars" href="https://www.networkrail.co.uk/communities/passengers/our-stations/london-blackfriars" target="_blank">London Blackfriars</a></dt>
+                <dd>From London Blackfriars, the trains go South East towards Sevenoaks. Located at <a href="https://www.google.com/maps/place/Blackfriars/@51.5116896,-0.1059826,17z/data=!3m1!4b1!4m5!3m4!1s0x487604adbaee6781:0xa1185326625f1d33!8m2!3d51.5116896!4d-0.1037939" target="_blank">179 Queen Victoria St, London EC4V 4DY</a>.</dd>
+            </dl>
+            <p class="footer mt-3">Thank you for visiting my website. <a data-tf-popup="jeCOkg1V" data-tf-iframe-props="title=Signup Form" data-tf-medium="snippet" style="color:#2f4f4f;cursor:pointer;">Subscribe</a> to the mailing list to get updates when we make changes to the website. If you have any questions or queries please use <a data-tf-popup="kmfrK8ls" data-tf-iframe-props="title=Contact" data-tf-medium="snippet" style="color:#2f4f4f;cursor:pointer;">this form</a>.</p>
+    </body>
+</html>
