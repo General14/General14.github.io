@@ -1,17 +1,17 @@
 ::selection {
-	color: ;
-	background-color: ;
+	color: #0A0908;
+	background-color: #F3FFC6;
 }
 ::-moz-selection {
-	color: ;
-	background-color: ;
+	color: #0A0908;
+	background-color: #F3FFC6;
 }
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    background-color: ;
+    background-color: #F5FBEF;
     position: absolute;
-    color: ;
+    color: #0A0908;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -56,12 +56,12 @@ a:hover {
 .main-image {
     position: relative;
     text-align: center;
-    color: ;
+    color: white;
 }
 .centered-image {
     position: relative;
     text-align: center;
-    color: ;
+    color: white;
 }
 .centered {
     position: absolute;
@@ -70,12 +70,12 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 nav {
-	border-top: 0.5px solid ;
+	border-top: 0.25px solid #F3FFC6;
 }
 .footer {
-    border-top: 0.25px solid ;
+    border-top: 0.25px solid #F3FFC6;
     font-size: 9pt;
 }
 .bg-colour {
-    background-color: ;
+    background-color: #F5FBEF;
 }
