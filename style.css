@@ -1,17 +1,17 @@
 ::selection {
-	color: white;
-	background-color: #2f4f4f;
+	color: ;
+	background-color: ;
 }
 ::-moz-selection {
-	color: white;
-	background-color: darkslategray;
+	color: ;
+	background-color: ;
 }
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    background-color: #E7EFC5;
+    background-color: ;
     position: absolute;
-    color:black;
+    color: ;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
 }
 .dropdown-item.active {
-    background-color: rgb(250,250,250);
-    color: black;
+    background-color: ;
+    color: ;
 }
 dd::before {
     content: "- ";
@@ -31,36 +31,36 @@ abbr:hover {
     cursor: pointer;
 }
 dt {
-    color: darkslategray;
+    color: ;
 }
 .dropdown-menu {
-    background-color: rgb(250,250,250);
+    background-color: ;
     font-size: 11pt;
 }
 .dropdown-item:hover {
-    background-color: rgb(240,240,240);
-    color: black;
+    background-color: ;
+    color: ;
 }
 .nav-link.dropdown-toggle {
     cursor: default;
 }
 a {
     text-decoration: none;
-    color: darkslategray;
+    color: ;
 }
 a:hover {
     text-decoration: underline;
-    color: darkslategray;
+    color: ;
 }
 .main-image {
     position: relative;
     text-align: center;
-    color: white;
+    color: ;
 }
 .centered-image {
     position: relative;
     text-align: center;
-    color: white;
+    color: ;
 }
 .centered {
     position: absolute;
@@ -69,12 +69,12 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 nav {
-	border-top: 0.5px solid darkslategray;
+	border-top: 0.5px solid ;
 }
 .footer {
-    border-top: 0.25px solid darkslategray;
+    border-top: 0.25px solid ;
     font-size: 9pt;
 }
 .bg-colour {
-    background-color: #E7EFC5;
+    background-color: ;
 }
